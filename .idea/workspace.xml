@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6e5a20b-3643-491f-8df6-839a2989c08c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sdos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DESIGN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REPLICATION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCALING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-all.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd_api_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd_blob_server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd_blob_server_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd_replicate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd_version.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd_version_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libconfig/libconfig.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-api-chroot.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-api-chroot_windows.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage-api_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subcommand_setup.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/ini.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/key.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/parser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/section.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/go-ini/ini/struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/google/subcommands/CONTRIBUTING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/google/subcommands/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/google/subcommands/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/google/subcommands/subcommands.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/mux.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/regexp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/route.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/gorilla/mux/test_helpers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/skx/sos/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/github.com/skx/sos/libconfig/libconfig.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/REPLICATION.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sos</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cmd_replicate.go" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/libconfig/libconfig.go" />
+        <option value="$PROJECT_DIR$/REPLICATION.md" />
+        <option value="$PROJECT_DIR$/build-all.sh" />
+        <option value="$PROJECT_DIR$/API.md" />
+        <option value="$PROJECT_DIR$/cmd_api_server.go" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/storage-api-chroot_windows.go" />
+        <option value="$PROJECT_DIR$/SCALING.md" />
+        <option value="$PROJECT_DIR$/storage-api.go" />
+        <option value="$PROJECT_DIR$/storage-api-chroot.go" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-336" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sdos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sdos" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-336" y="-1080" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32928064" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/REPLICATION.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
