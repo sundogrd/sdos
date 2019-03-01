@@ -16,6 +16,7 @@ import (
 	"sync"
 
 	"github.com/gorilla/mux"
+	"github.com/gorilla/handlers"
 	"github.com/sundogrd/sdos/libconfig"
 )
 
@@ -29,7 +30,9 @@ var OPTIONS apiServerCmd
 // Start the upload/download servers running.
 //
 func api_server(options apiServerCmd) {
-
+	allowedHeaders := handlers.AllowedHeaders([]string{"X-Requested-With"})
+	allowedOrigins := handlers.AllowedOrigins([]string{"*"})
+	allowedMethods := handlers.AllowedMethods([]string{"GET", "HEAD", "POST", "PUT", "DELETE", "OPTIONS"})
 	//
 	// If we received blob-servers on the command-line use them too.
 	//
@@ -104,7 +107,7 @@ func api_server(options apiServerCmd) {
 	wg.Add(1)
 	go func() {
 		err := http.ListenAndServe(fmt.Sprintf("%s:%d", options.host, options.uport),
-			up_router)
+			handlers.CORS(allowedHeaders, allowedOrigins, allowedMethods)(up_router))
 		if err != nil {
 			panic(err)
 		}
@@ -113,7 +116,7 @@ func api_server(options apiServerCmd) {
 	wg.Add(1)
 	go func() {
 		err := http.ListenAndServe(fmt.Sprintf("%s:%d", options.host, options.dport),
-			down_router)
+			handlers.CORS(allowedHeaders, allowedOrigins, allowedMethods)(down_router))
 		if err != nil {
 			panic(err)
 		}
