@@ -30,7 +30,7 @@ var OPTIONS apiServerCmd
 // Start the upload/download servers running.
 //
 func api_server(options apiServerCmd) {
-	allowedHeaders := handlers.AllowedHeaders([]string{"X-Requested-With", "Referer", "User-Agent"})
+	allowedHeaders := handlers.AllowedHeaders([]string{"X-Requested-With", "Referer", "User-Agent","Content-Type"})
 	allowedOrigins := handlers.AllowedOrigins([]string{"*"})
 	allowedMethods := handlers.AllowedMethods([]string{"GET", "HEAD", "POST", "PUT", "DELETE", "OPTIONS"})
 	//
