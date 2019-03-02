@@ -227,6 +227,7 @@ func APIUploadHandler(res http.ResponseWriter, req *http.Request) {
 			// blob-server and return it to the caller.
 			//
 			response, _ := ioutil.ReadAll(r.Body)
+			res.Header().Set("Content-Type", "application/json")
 
 			if response != nil {
 				fmt.Fprintf(res, string(response))
